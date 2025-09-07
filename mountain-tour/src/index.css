@@ -9,12 +9,14 @@ html {
     scroll-behavior: smooth;
     font-size: 14px;
     overflow-x: hidden;
+    overflow-y: visible;
     width: 100%;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
+    overflow-y: visible;
     width: 100%;
 }
 
@@ -70,7 +72,7 @@ nav ul li:last-child{
 }
 
 .main-nav{
-    position: sticky;
+    position: fixed;
     top: 15px; 
     z-index: 100000;
     display: flex;
